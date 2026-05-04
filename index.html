@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohammed Abdul Khader | Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <img src="profile pic.jpg" alt="MAK" class="nav-avatar" />
+        MAK<span class="dot">.</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Mohammed<br /><span class="highlight">Abdul Khader</span></h1>
+      <div class="hero-role">
+        <span class="role-text" id="role-text"></span><span class="cursor">|</span>
+      </div>
+      <p class="hero-desc">
+        Building responsive, user-friendly web applications with modern full stack technologies.
+        Passionate about clean code and seamless user experiences.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-socials">
+        <a href="mailto:mohammadabdulkhader20@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="code-card">
+        <div class="code-header">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="code-filename">developer.js</span>
+        </div>
+        <pre class="code-body"><code><span class="kw">const</span> <span class="var">developer</span> = {
+  <span class="key">name</span>: <span class="str">"Mohammed Abdul Khader"</span>,
+  <span class="key">role</span>: <span class="str">"Full Stack Developer"</span>,
+  <span class="key">stack</span>: [
+    <span class="str">"React"</span>, <span class="str">"Node.js"</span>,
+    <span class="str">"MongoDB"</span>, <span class="str">"Express"</span>
+  ],
+  <span class="key">passion</span>: <span class="str">"Building great UX"</span>,
+  <span class="key">available</span>: <span class="bool">true</span>
+};</code></pre>
+      </div>
+    </div>
+    <a href="#about" class="scroll-down" aria-label="Scroll down">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-avatar">
+          <div class="avatar-ring">
+            <div class="avatar-inner">
+              <img src="profile pic.jpg" alt="Mohammed Abdul Khader" class="profile-photo" />
+            </div>
+          </div>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num">4+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">19+</span>
+              <span class="stat-label">Skills</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">1+</span>
+              <span class="stat-label">Years Learning</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text">
+          <p>
+            I'm a <strong>Full Stack Developer</strong> based in Rajahmundry, India, skilled in HTML, CSS, JavaScript, and React fundamentals.
+            I build responsive web applications with API integration and dynamic UI components.
+          </p>
+          <p>
+            Currently pursuing a <strong>Full Stack Development</strong> certification at Internshala (Nov 2025 – Present),
+            covering everything from web design to DSA in JavaScript. I bring a unique perspective from my background as a
+            Contract Supervisor at GAIL India Ltd, where I honed strong problem-solving, communication, and deadline management skills.
+          </p>
+          <p>
+            I'm passionate about creating user-friendly interfaces and continuously growing my technical expertise across the full stack.
+          </p>
+          <div class="about-info">
+            <div class="info-item"><i class="fas fa-map-marker-alt"></i> Rajahmundry, India</div>
+            <div class="info-item"><i class="fas fa-envelope"></i> mohammadabdulkhader20@gmail.com</div>
+            <div class="info-item"><i class="fas fa-phone"></i> +91 7569211459</div>
+            <div class="info-item"><i class="fas fa-circle status-dot"></i> Available for opportunities</div>
+          </div>
+          <a href="#contact" class="btn btn-primary mt-1">Hire Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section section-dark" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I Know</span>
+        <h2 class="section-title">Skills & Technologies</h2>
+      </div>
+      <div class="skills-categories">
+
+        <div class="skill-category">
+          <h3 class="category-title"><i class="fas fa-laptop-code"></i> Frontend</h3>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fab fa-html5"></i> HTML5</span>
+            <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS3</span>
+            <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+            <span class="skill-tag"><i class="fab fa-react"></i> React</span>
+            <span class="skill-tag"><i class="fas fa-wind"></i> Tailwind CSS</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="category-title"><i class="fas fa-server"></i> Backend</h3>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fab fa-node-js"></i> Node.js</span>
+            <span class="skill-tag"><i class="fas fa-route"></i> Express.js</span>
+            <span class="skill-tag"><i class="fas fa-plug"></i> REST API</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="category-title"><i class="fas fa-database"></i> Database</h3>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fas fa-leaf"></i> MongoDB</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="category-title"><i class="fas fa-brain"></i> DSA & Algorithms</h3>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fas fa-project-diagram"></i> Data Structures</span>
+            <span class="skill-tag"><i class="fas fa-sort-amount-up"></i> Algorithms</span>
+            <span class="skill-tag"><i class="fas fa-sitemap"></i> Recursion</span>
+            <span class="skill-tag"><i class="fas fa-list"></i> Linked Lists</span>
+            <span class="skill-tag"><i class="fas fa-layer-group"></i> Stacks & Queues</span>
+            <span class="skill-tag"><i class="fas fa-tree"></i> Trees</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="category-title"><i class="fas fa-tools"></i> Tools & Others</h3>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fab fa-git-alt"></i> Git</span>
+            <span class="skill-tag"><i class="fab fa-github"></i> GitHub</span>
+            <span class="skill-tag"><i class="fas fa-code"></i> VS Code</span>
+            <span class="skill-tag"><i class="fas fa-table"></i> MS Excel</span>
+            <span class="skill-tag"><i class="fas fa-file-word"></i> MS Word</span>
+            <span class="skill-tag"><i class="fas fa-cogs"></i> SAP</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I've Built</span>
+        <h2 class="section-title">Projects</h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card featured">
+          <div class="project-top">
+            <div class="project-icon"><i class="fas fa-cloud-sun"></i></div>
+            <div class="project-links">
+              <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="#" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <span class="project-date">Jan 2026</span>
+          <h3 class="project-title">Weather Forecast Application</h3>
+          <p class="project-desc">
+            A real-time weather forecast app with a user-focused interface offering location-specific weather updates.
+            Asynchronous API requests fetch and dynamically update current and future conditions on the DOM.
+          </p>
+          <div class="project-tech">
+            <span>JavaScript</span><span>REST API</span><span>HTML</span><span>CSS</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon"><i class="fas fa-code-branch"></i></div>
+            <div class="project-links">
+              <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="#" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <span class="project-date">Feb – Mar 2026</span>
+          <h3 class="project-title">Advanced DSA: Recursion, Linked Lists, Stacks, Queues & Trees</h3>
+          <p class="project-desc">
+            Achieved advanced proficiency in JavaScript DSA by solving recursion, linked lists, stacks, queues, and trees challenges.
+            Focused on implementation and refinement of data structures for scalable solutions.
+          </p>
+          <div class="project-tech">
+            <span>JavaScript</span><span>DSA</span><span>Algorithms</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon"><i class="fas fa-sort-amount-down"></i></div>
+            <div class="project-links">
+              <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <span class="project-date">Feb 2026</span>
+          <h3 class="project-title">Mastering DSA: Arrays, Searching & Sorting</h3>
+          <p class="project-desc">
+            Developed a comprehensive understanding of foundational DSA concepts. Designed and optimized search and sort
+            algorithms with applications in various data structures, enhancing efficiency and problem-solving.
+          </p>
+          <div class="project-tech">
+            <span>JavaScript</span><span>Sorting</span><span>Searching</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon"><i class="fas fa-user-circle"></i></div>
+            <div class="project-links">
+              <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="#" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <span class="project-date">Nov 2025</span>
+          <h3 class="project-title">Personal Portfolio Website</h3>
+          <p class="project-desc">
+            Designed a personal portfolio website to demonstrate professional skills and accomplishments.
+            Implemented a responsive layout and effective UI components for cross-device compatibility.
+          </p>
+          <div class="project-tech">
+            <span>HTML</span><span>CSS</span><span>Responsive Design</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon"><i class="fas fa-calendar-check"></i></div>
+            <div class="project-links">
+              <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <span class="project-date">Mar 2023</span>
+          <h3 class="project-title">College Fest Registration System</h3>
+          <p class="project-desc">
+            Developed a responsive web application with registration forms featuring validation and dynamic content rendering.
+            Ensured user-friendly UI and cross-device compatibility.
+          </p>
+          <div class="project-tech">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon"><i class="fas fa-check-square"></i></div>
+            <div class="project-links">
+              <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="#" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <span class="project-date">2026</span>
+          <h3 class="project-title">To-Do App</h3>
+          <p class="project-desc">
+            A clean and intuitive task management application that lets users add, edit, complete, and delete tasks.
+            Features local storage persistence so tasks are saved across sessions, with priority tagging and filter views.
+          </p>
+          <div class="project-tech">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>LocalStorage</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon"><i class="fas fa-book-open"></i></div>
+            <div class="project-links">
+              <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="#" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <span class="project-date">2026</span>
+          <h3 class="project-title">Online Library App</h3>
+          <p class="project-desc">
+            A full-featured online library application where users can browse, search, and manage a collection of books.
+            Includes book details, category filtering, search functionality, and a reading list feature powered by REST API integration.
+          </p>
+          <div class="project-tech">
+            <span>React</span><span>Node.js</span><span>REST API</span><span>CSS3</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="section section-dark" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">My Journey</span>
+        <h2 class="section-title">Experience & Education</h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot work"></div>
+          <div class="timeline-card">
+            <span class="timeline-badge work">Work</span>
+            <div class="timeline-date"><i class="fas fa-calendar"></i> Jan 2024 – Present</div>
+            <h3>Contract Supervisor / HR Assistant</h3>
+            <h4>GAIL India Ltd, Rajahmundry</h4>
+            <ul>
+              <li>Coordinated cross-functional teams and ensured smooth workflow execution</li>
+              <li>Managed documentation and maintained accurate data records</li>
+              <li>Improved operational efficiency through structured reporting and monitoring</li>
+              <li>Developed strong problem-solving and communication skills</li>
+              <li>Handled multiple responsibilities under strict deadlines</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot edu"></div>
+          <div class="timeline-card">
+            <span class="timeline-badge edu">Education</span>
+            <div class="timeline-date"><i class="fas fa-calendar"></i> 2016 – 2020</div>
+            <h3>Diploma, Mechanical Engineering</h3>
+            <h4>B.A. Ramaiah Polytechnic College</h4>
+            <p>Percentage: 63.00%</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot edu"></div>
+          <div class="timeline-card">
+            <span class="timeline-badge edu">Education</span>
+            <div class="timeline-date"><i class="fas fa-calendar"></i> 2016</div>
+            <h3>Secondary (X), SSC</h3>
+            <h4>Govt Boys High School</h4>
+            <p>Percentage: 75.00%</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section class="section" id="certifications">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Credentials</span>
+        <h2 class="section-title">Trainings & Certifications</h2>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+        <div class="cert-info">
+          <div class="cert-meta">
+            <span class="cert-provider">Internshala, Virtual</span>
+            <span class="cert-date">Nov 2025 – Present</span>
+          </div>
+          <h3 class="cert-title">Full Stack Development</h3>
+          <div class="cert-modules">
+            <span><i class="fas fa-check-circle"></i> Fundamentals of Full Stack Development</span>
+            <span><i class="fas fa-check-circle"></i> Web Page Designing (HTML & CSS)</span>
+            <span><i class="fas fa-check-circle"></i> Git and GitHub: Version Control</span>
+            <span><i class="fas fa-check-circle"></i> Websites Development (JavaScript)</span>
+            <span><i class="fas fa-check-circle"></i> Data Structures and Algorithms in JavaScript</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section section-dark" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Let's Talk</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">I'm currently open to new opportunities. Whether you have a project in mind or just want to say hi, my inbox is always open.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:mohammadabdulkhader20@gmail.com">mohammadabdulkhader20@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <h4>Phone</h4>
+              <a href="tel:+917569211459">+91 7569211459</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <h4>Location</h4>
+              <span>Rajahmundry, Andhra Pradesh, India</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+            <div>
+              <h4>LinkedIn</h4>
+              <a href="https://linkedin.com" target="_blank" rel="noopener">View Profile</a>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Full Name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Job Opportunity / Project Collaboration" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or opportunity..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <p class="form-note" id="form-note"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-name">Mohammed Abdul Khader</p>
+        <p class="footer-tagline">Full Stack Developer · Building the web, one component at a time.</p>
+        <div class="footer-socials">
+          <a href="mailto:mohammadabdulkhader20@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+        <p class="footer-copy">&copy; 2026 Mohammed Abdul Khader. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
